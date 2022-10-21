@@ -1,0 +1,159 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: "sans-serif";
+}
+/* html
+{
+    scroll-behavior: smooth;
+} */
+:root
+{
+    --main-color :#D62E33; 
+    --second-color : rgba(214, 46, 51, 0.6);
+}
+/* Golbal element */
+h3
+{
+    font-size: 25px;
+}
+a
+{
+    text-decoration: none;
+    color: #fff;
+}
+/* =====================Start Header Section===================== */
+#event
+{
+    width: 100%;
+    height: 85vh;
+    position: relative;
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+.overly
+{
+    width: 100%;
+    height: 100%;
+    background-color: var(--second-color);
+    display: flex;
+ }
+ /* aside */
+ .menu
+ {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #414658;
+    color: #fff;
+    overflow: hidden;
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+    transition: all 1s;
+
+ }
+ .menu a:hover , .menu i:hover
+ {
+    color: var(--main-color) !important;
+    cursor: pointer;
+ }
+ .caption-home
+ {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#fff;
+    margin-left: 0px;
+ }
+ .caption-home h2
+ {
+    font-size: 60px;
+ }
+ .open
+ {
+  font-size: 30px;
+  align-self: flex-start;
+  cursor: pointer;
+ }
+/* =====================Start singers Section===================== */
+#singers
+ {
+    width: 50%;
+    padding: 100px 0px;
+    margin: 0px auto;
+    text-align: center;
+ }
+ #singers h3 ,#singers div 
+ {
+    background-color: var(--second-color);
+ }
+ #singers h3
+ {
+    cursor: pointer;
+    margin: 0;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: 25px;
+ }
+ /* =====================End singers Section===================== */
+/* =====================start counter Section===================== */
+#counter
+{
+    height: 330px;
+    width: 100%;
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-size: 100% 100%;
+}
+.time
+{
+    color: #fff;
+    padding: 70px;
+    margin-left: 10px;
+    border: 1px solid #fff;
+    text-align: center;
+}
+/* =====================End counter Section===================== */
+/* =====================start contact Section===================== */
+
+#contact
+{
+    margin-top: 100px;
+}
+.icons-social
+{
+    margin-top: 20px;
+    color: #777;
+}
+.social
+{
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 1s;
+}
+.social:hover
+{
+    background-color: var(--main-color);
+    color: #fff;
+}
+textarea
+{
+    height: 200px;
+
+}
